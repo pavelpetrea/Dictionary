@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    font-family: 'Bahnschrift SemiBold';
+    color: rgb(132, 109, 79);
+}
+#search{
+    text-shadow: black;
+    padding: 15px;
+    font-size: large;
+   padding-left: 25px;
+    line-height: 1;
+    text-align:left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: rgb(132, 109, 79);
+    font-family: 'Bahnschrift SemiBold';
+}
+body{
+    margin-top: 4%;
+    background-color: rgb(246, 246, 216);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.add{
+    margin-top: 8px;
+    cursor: pointer;
+    background-color:beige;
+    border-radius: 5px;
+    color: rgb(97, 80, 57);
+    font-family: 'Bahnschrift SemiBold';
+    padding-left: 5px;
+    text-align: center;
+
+}
+.Search{
+    cursor: pointer;
+    background-color: beige;
+    border-radius: 5px;
+    font-family: 'Bahnschrift SemiBold';
+    color: rgb(97, 80, 57);
+}
+footer{
+    font-weight: bold;
+    margin-top: 29%;
+    font-family: 'Bahnschrift SemiBold';
+}
+.add:hover{
+    background-color: rgb(219, 219, 193);
+}
+.Search:hover{
+    background-color: rgb(219, 219, 193);
+}
+footer:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.search::-webkit-search-cancel-button{
+    position:relative;
+    right:10px;    
+    cursor: pointer;
+}
